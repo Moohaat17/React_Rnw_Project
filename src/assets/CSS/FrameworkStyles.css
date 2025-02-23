@@ -1,0 +1,33 @@
+.framework-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.framework-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+    background-color: #e9ecef;
+    margin-bottom: 15px;
+}
+
+.framework-section {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+
+}
+
+.framework-subtitle {
+    font-size: 22px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.framework-item {
+    font-size: 18px;
+    padding: 10px 15px;
+    color: #60697b;
+}

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+body{
+    background-color: #f3f8f9;
+}
+.course-info {
+    font-family: "Manrope", serif;
+    background-color: #ffff;
+    color: #333;
+    padding: 24px 48px;
+    border-radius: 8px;
+}
+
+
+.course-info h2{
+    color: #e31e25;
+    font-weight: 500;
+}
+
+.course-info .btn{
+    border-color: #007bff;
+    color: #60697b;
+    font-size: 18px;
+}
+
+.course-info h4 {
+    /* margin-top: 20px; */
+    font-weight: 700;
+    color: #343f52;
+}
+.course-info p{
+    color: #60697b;
+    font-size: 19px;
+}
+
+.course-info ul {
+    padding-left: 0 !important;
+        margin-left: 0 !important;
+        list-style-position: inside;
+}
+
+.course-info ul li {
+    padding: 5px 0;
+    font-size: 18px;
+    color: #60697b;
+}
+
+.course-info ul li::before {
+    content: "✔";
+    color: black;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.course-info .bg-light {
+    background-color: #ffffff !important;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.course-info .text-center.text-danger {
+    color: #e31e25;
+    font-weight: bold;
+}
+

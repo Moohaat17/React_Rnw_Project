@@ -1,0 +1,69 @@
+.frontend-coding h3 {
+    color: #1b1e23;
+    margin-bottom: 20px;
+    font-size: 23px;
+    font-weight: 600;
+    background-color: #e9eaeb;
+    border-color: #bebfc2;
+    
+}
+
+.frontend-card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 26px;
+}
+
+.frontend-card h5 {
+    color: #1b1e23;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.list-group{
+    padding: 10px 34px;
+}
+
+.frontend-list-group-item {
+    border: none;
+    padding: 10px 0px;
+    font-size: 18px;
+    color: #60697b;
+}
+.frontend-lang-box {
+    background: transparent;
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+@keyframes popUpEffect {
+    0% {
+        transform: scale(1.0);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1.0);
+    }
+}
+
+.frontend-btn {
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    margin: auto;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #001c51;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    animation: popUpEffect 2s infinite ease-in-out;
+}

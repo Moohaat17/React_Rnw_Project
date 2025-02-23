@@ -1,0 +1,56 @@
+.advanced-header {
+    background: #e9ecef;
+    padding: 12px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.advanced-section {
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.advanced-subtitle {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.advanced-list {
+    list-style: none;
+    padding: 0;
+}
+
+.advanced-item {
+    font-size: 18px;
+    color: #60697b;
+    margin: 5px 0;
+    padding: 10px 15px;
+}
+
+.course-box {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 18px;
+    
+}
+
+.apply-button {
+    display: block;
+        width: 100%;
+        max-width: 250px;
+        margin: auto;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 5px;
+        background-color: #001c51;
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        animation: popUpEffect 2s infinite ease-in-out;
+}

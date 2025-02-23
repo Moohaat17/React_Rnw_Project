@@ -1,0 +1,31 @@
+const AdvancedTopics = {
+  sectionTitle: "Advanced Programming",
+  courseName: "JavaScript",
+  courseTopics: [
+    "JavaScript Importance",
+    "ECMAScript & Versions & Install Environment Scratch JS",
+    "Show different Types of Output Methods (alert, console, document, inner HTML)",
+    "Syntax and Operations Of JS",
+    "Conditions & Looping",
+    "Different types of Variable Like (var, const, let)",
+    "Array and String With Different Methods",
+    "Functions (Function Types, Return Types)",
+    "Working with Objects (Prototype, Methods)",
+    "Use Different Types of Objects LIKE (Date, Math, Boolean, and Number)",
+    "Understanding Class and (Objects, constructor, Prototype, Inheritance)",
+    "Working with JavaScript DOM (Document Object Module)",
+    "Understanding ES6 Concept",
+    "Arrows",
+    "Classes",
+    "Iterators + for..of",
+    "Modules & Module Loaders",
+    "Proxies, Symbols, Promises, then, new",
+    "Understanding JSON (JavaScript Object Notation)",
+    "Working with JSON ( JSON.parse, JSON.stringify, JSON object, JSON array)",
+    "Storing Local Data in JavaScript with JSON local storage",
+    "Data Structure & Algorithm",
+  ],
+  languages: ["JavaScript", "ECMAScript"],
+};
+
+export default AdvancedTopics;

@@ -1,0 +1,41 @@
+
+
+.foundation-header {
+    background: #e9ecef;
+    padding: 12px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.foundation-section {
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.foundation-subtitle {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.foundation-list {
+    list-style: none;
+    padding: 0;
+}
+
+.foundation-item {
+    font-size: 18px;
+    color: #60697b;
+    margin: 5px 0;
+    padding: 10px 15px;
+}
+
+.course-box {
+    margin-top: 20px;
+    padding: 14px 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+    font-size: 18px;
+    
+}

@@ -1,0 +1,38 @@
+.heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+.topic-list {
+    list-style-type: disc;
+    padding: 15px 28px;
+    color: #60697b;
+}
+
+.topic-list li {
+    margin-bottom: 8px;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+
+.language-box {
+    width: 400px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #f8f8f8;
+}
+
+.language-heading {
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+}
+
+.language-list {
+    color: #666;
+    margin-top: 5px;
+}

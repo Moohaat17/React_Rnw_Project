@@ -1,0 +1,18 @@
+
+
+.framework-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.framework-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.framework-list-item {
+    font-size: 18px;
+    padding: 5px 0;
+    color: #555;
+}

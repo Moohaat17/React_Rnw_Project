@@ -1,0 +1,38 @@
+.fullbg{
+    background-image: url('/public/images/full-bgcolor.jpeg');
+    width: 100%;
+    height: 730px;
+    background-size: cover;
+}
+.feature-list {
+    list-style: none;
+    padding: 0;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn {
+    font-size: 23px;
+    padding: 10px 24px;
+    border-radius: .4rem;
+    font-weight: 700;
+    transition: all .5s ease;
+}
+.btn:hover{
+    transform: translateY(-5px);
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+h6{
+    font-size: 21px;
+        margin: 20px 0;
+}

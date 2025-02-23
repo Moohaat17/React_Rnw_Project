@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+*{
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Manrope", serif;
+}
+.container-fluid{
+    position: static !important;
+}
+
+.top-bar{
+    background-color: #e31e25;
+    font-family: "Manrope", serif;
+    display: flex;
+    
+}
+.top-bar button{
+    font-weight: 700;
+    border-color: white;
+    font-size: 15px;
+}
+.btn-check:focus+.btn, .btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+marquee{
+    font-size: 18px;
+    font-weight: 600;
+}
+.nav-menu {
+    position: relative;
+}
+.navbar-menu{
+    position: sticky;
+        top: 0;
+        z-index: 1000;
+        width: 100%;
+        height: 80px;
+        background-color: white;
+        align-self: flex-start;
+}
+.nav-item a{
+    font-size: 18px;
+    color: #000000;
+    font-weight: 600;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: red !important;
+}
+.dropdown-menu .dropdown-item:hover {
+    background-color: white !important;
+    color: red !important;
+}
+/* Increase the width of the dropdown menu */
+.dropdown-menu {
+    min-width: 250px !important;
+    border-radius: 0 !important;
+}

@@ -1,0 +1,51 @@
+
+.mongo-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    background-color: #e9ecef;
+}
+
+.topic-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #444;
+}
+
+.topic-list li {
+    margin-bottom: 8px;
+}
+
+
+.language-box {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #f8f8f8;
+}
+
+.language-heading {
+    font-weight: bold;
+    color: #333;
+}
+
+.language-list {
+    color: #666;
+    margin-top: 5px;
+}
+
+
+.apply-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #002244;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
