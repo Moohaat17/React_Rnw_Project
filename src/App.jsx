@@ -14,8 +14,8 @@ import Footer from "./Footer/Footer";
 var App = () => {
   return (
     <>
+      <Header />
       <main className="container-fluid p-0">
-        <Header />
         <FullStackCourse />
         <div className="row g-0">
           <div className="col-lg-8 px-0 bg-white shadow-sm">
@@ -43,15 +43,14 @@ var App = () => {
             <AdvancedProgramming />
             <JSFrameworks />
             <MongoDb />
-            <FAQ/>
-            
+            <FAQ />
           </div>
           <div className="col-lg-4 p-3">
             <CourseForm />
           </div>
         </div>
       </main>
-      <Footer/>
+      <Footer />
     </>
   );
 };

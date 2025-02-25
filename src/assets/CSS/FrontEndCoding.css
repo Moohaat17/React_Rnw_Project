@@ -67,3 +67,6 @@
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
     animation: popUpEffect 2s infinite ease-in-out;
 }
+.frontend-btn:hover{
+    background-color: #001c51;
+}
